@@ -1,0 +1,12 @@
+[user]
+    email = xfhaome@gmail.com
+    name = Xiaofeng Hao
+[core]
+    editor = /usr/local/bin/vim
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(blue)%f%C(reset) %C(green)- %an%C(reset)%C(bold magenta)%d%C(reset)'
+    new = checkout -b
